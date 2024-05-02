@@ -4,7 +4,7 @@ showSlides();
 function showSlides() {
   const slides = document.getElementsByClassName("mySlides");
   const dots = document.getElementsByClassName("dot");
-  let slideIndex = 0;
+  let slideIndex = 1;
 
   function displaySlide(index) {
     for (let i = 0; i < slides.length; i++) {
@@ -44,6 +44,9 @@ function showSlides() {
 
   prevButton.addEventListener("click", prevSlide);
   nextButton.addEventListener("click", nextSlide);
+
+// Display the current or first slide before the 3 second interval
+  currentSlide(slideIndex);
 
   // Change image every 3 seconds (adjust timing as needed)
   setInterval(nextSlide, 3000); // Change image every 3 seconds
