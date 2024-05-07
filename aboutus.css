@@ -7,13 +7,13 @@ img {vertical-align: middle; border-radius: 20px;}
     position: relative;
     margin: auto;
     margin-top: 60px;
+    margin-bottom: 50px;
 }
 
 .topImg-container img {
     border-radius: 10px;
     vertical-align: middle;
     width: 100%;
-    
 }
 
 aside {
@@ -28,6 +28,7 @@ aside {
     display: block;
     border-right: grey 1px solid;
     padding-right: 10px;
+
 }
 
 .profile-section h3 {
@@ -47,10 +48,10 @@ aside {
 .history-section {
     margin-top: 1.8%;
     margin-left: 22%;
+    margin-right: 20px;
     position: flex;
     display: block;
 }
-
 
 .history-section h3 {
     width: 100%;
@@ -63,11 +64,30 @@ aside {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 5%;
+  margin-top: 1%;
   margin-bottom: 3%;
   gap: 2rem;
 }
 
 .section-ftr-container h3 {
     margin-right: 5%;
+}
+
+.d-buttons {
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+}
+
+.d-buttons button {
+    background-image: linear-gradient(to right, #3FB782,  #81C550);
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;cursor: pointer;
+}
+
+button:hover {
+    filter: brightness(120%);
 }

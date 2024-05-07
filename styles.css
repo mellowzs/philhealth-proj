@@ -84,23 +84,41 @@ body {
 }
 
 .ftrLogo-left, .ftrLogo-left img {
+  background-repeat: no-repeat;
+  background-size: cover;
   flex: 0 0 auto;
   margin-left: 15px;
   margin-bottom: 20px;
-  width: 50px;
-  width: 65px;
+  height: 70px;
+  width: 70px;
   
 }
 
-.ftrLogo-right, .ftrLogo-right a  {
+.image-con1 {
+  background-image:url(images/logos/Phlogo2.png);
+}
+
+.image-con2 {
+  background-image:url(images/logos/Phlogo3.png);
+}
+
+.image-con3 {
+  background-image:url(images/logos/Phlogo4.png);
+}
+
+.ftrLogo-right {
+ margin-bottom: 20px;
+}
+
+ .ftrLogo-right a  {
   flex: 0 0 auto;
   margin-bottom: 20px;
   font-weight: bold;
   text-decoration: none;
+
 }
 .ftrLogo-right img {
   margin-top: 3px;
-  display: inline;
   width: 25px;
   width: 30px;
   max-width: 100%;
@@ -111,7 +129,7 @@ body {
 .ftrContents {
 display: flex;
 gap: 1rem;
-margin-left: 200px;
+margin-left: 1%;
 }
 
 .ftrContents-left a {
@@ -146,6 +164,11 @@ margin-left: 200px;
 .requests {
   margin-bottom: 20px;
   margin-left: 5px;
+}
+
+footer {
+  display:inline-block;
+  width: 100%;
 }
 
 .footer {
