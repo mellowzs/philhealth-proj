@@ -1,0 +1,73 @@
+* {box-sizing: border-box;}
+
+img {vertical-align: middle; border-radius: 20px;}
+
+.topImg-container {
+    max-width: 70%;
+    position: relative;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.topImg-container img {
+    border-radius: 10px;
+    vertical-align: middle;
+    width: 100%;
+    
+}
+
+aside {
+    float: left;
+    width: 20%;
+    padding-left: 15px;
+    margin-left: 15px;
+
+}
+.profile-section {
+    position: flex;
+    display: block;
+    border-right: grey 1px solid;
+    padding-right: 10px;
+}
+
+.profile-section h3 {
+    width: 100%;
+    background-color: #3FB782;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.profile-section img {
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.history-section {
+    margin-top: 1.8%;
+    margin-left: 22%;
+    position: flex;
+    display: block;
+}
+
+
+.history-section h3 {
+    width: 100%;
+    background-color: #3FB782;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.section-ftr-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  margin-bottom: 3%;
+  gap: 2rem;
+}
+
+.section-ftr-container h3 {
+    margin-right: 5%;
+}
