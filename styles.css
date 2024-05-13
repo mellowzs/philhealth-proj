@@ -150,9 +150,9 @@ margin-left: 1%;
 
 .ftrContents-left a:hover, .ftrContents-right a:hover{
   color:white;
-  background-color: rgba(128, 128, 128, 0.608);
+  background-color: gray;
   border-radius: 5px;
-  padding: 2px;
+  padding: 3px;
 }
 
 .contacts {
