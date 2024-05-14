@@ -94,6 +94,7 @@ aside {
   flex-wrap: wrap;
   gap: 3rem;
   justify-content: center;
+  margin-bottom: 10%;
 }
 
 .d-buttons button {
