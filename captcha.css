@@ -1,0 +1,46 @@
+#image{
+	user-select: none;
+	margin-top: 10px;
+	width: 60px;;
+	padding: 10px;
+	font-weight: 400;
+	padding-bottom: 0px;
+	text-decoration:line-through;
+	font-style: italic;
+	font-size: x-large;
+	background-color: black;
+	width: 40%;
+	justify-content: center;
+	float: initial;
+	color: aliceblue;
+}
+#user-input{
+	width:50%;
+	padding-bottom: 60px;
+	height: 40px;
+	border: red 0px solid;
+	float: right;
+}
+input{
+	border:1px black solid;
+}
+.inline{
+	display:inline-block;
+	justify-content: center;
+}
+#btn{
+	color: aqua;
+	margin: 10px;
+	width: 50%;
+	background-color: brown;
+}
+
+i:hover {
+	color: rgb(255, 255, 255);
+	background: gray;
+	border-radius: 10px;
+}
+#key {
+	color: red;
+
+}
